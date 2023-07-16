@@ -12,6 +12,9 @@ export default async function Home() {
             <h3>{item.name}</h3>
             <h3>{item.email}</h3>
             <h3>{item.address.city}</h3>
+            <h3>{item.phone}</h3>
+            <h3>{item.zipcode}</h3>
+            <h3>{item.street}</h3>
             </div>
         ))}
         </div>
